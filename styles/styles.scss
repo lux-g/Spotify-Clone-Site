@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+//COLORS
+$text-color-white: white;
+$text-color-orange: #F19B2C;
+$text-color-grey: #919496;
+$text-color-blue: #2F4AB6;
+$text-dark-grey: #222326;
+$text-color-black: black;
+$fb-button-color: #4267B2;
+
+
+//IMPORTS
+@import './nav';
+@import './main';
+@import './footer';
+@import './login';
+@import './Premium';
+@import './signup';
+@import './password-reset';
+@import './download';
+@import './help';

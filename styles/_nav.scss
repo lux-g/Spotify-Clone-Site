@@ -1,0 +1,205 @@
+.nav-container {
+    background-color: black;
+}
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo img {
+    width: 140px;
+}
+.nav-links {
+    display: flex;
+
+    li {
+        list-style-type: none;
+    }
+    a {
+        font-weight: 600;
+        text-decoration: none;
+        margin: 15px;
+        color: white;
+        &:hover {
+            color: #1ED760;
+        }
+    }
+}
+.divide {
+    color: white;
+    margin: 0px 15px;
+}
+.sign-up a {
+    color: #919496;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+}
+.bar {
+    width: 22px;
+    height: 3px;
+    background-color: white;
+    transition: 300ms ease;
+}
+#bar1 {
+    transform: translateY(-4px);
+}
+#bar3 {
+    transform: translateY(4px);
+}
+.change #bar1 {
+    transform: translateY(4px) rotate(-45deg);
+}
+.change #bar3 {
+    transform: translateY(-2px) rotate(45deg);
+}
+.change #bar2 {
+    opacity: 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease-in-out;
+}
+.open {
+    display: flex;
+    transform: translateX(0%);
+    visibility: visible;
+    opacity: 1;
+}
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    height: 100%;
+    width: 45%;
+
+    transition: all 600ms ease-in-out;
+   
+    padding: 15px;
+    ul {
+        margin-top: 20px;
+    }
+    li {
+        list-style: none;
+        padding-bottom: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #DFDFDF;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .menu-top a {
+        font-size: 36px;
+        font-weight: bold;
+        padding: 0px 25px;
+        letter-spacing: 0px;
+        &:hover {
+            color: #1ED760;
+        }
+    }
+    .menu-divide {
+        padding: 0px 25px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .line {
+        width: 20px;
+        height: 2px;
+        background-color: white;
+    }
+    .menu-bottom a {
+        font-size: 28px;
+        padding: 0px 25px;
+        &:hover {
+            color: #1ED760;
+        }
+    }
+    .menu-logo {
+        padding: 0px 25px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 40px;
+    }
+    .menu-logo img {
+        width: 100px;
+    }
+}
+
+
+
+
+//blocks user from moving the page while the menu is open
+.block {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+//MEDIA QUERIES
+@media (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .sign-up a {
+        font-size: 28px;
+    }
+    .divide {
+        color: black;
+    }
+    nav {
+        height: 55px;
+        justify-content: space-between;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .nav-links {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .side-nav {
+        width: 70%;
+    }
+}
+@media (max-width: 500px) {
+    .nav-links {
+        left: 0;
+    }
+    .side-nav {
+        width: 88%;
+    }
+}
+@media (max-width: 400px) {
+    .side-nav {
+        width: 100%;
+    }
+}

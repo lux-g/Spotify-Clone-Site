@@ -1,0 +1,233 @@
+.nav-download-container{
+    background-color: black;
+    width: 100%;
+}
+.download-wrapper {
+    background-color: #19E68C;
+    color: black;
+}
+.download-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.download-image img {
+    width: 135px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.download-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 24px;
+        letter-spacing: -1px;
+    }
+    p {
+        margin-bottom: 40px;
+        line-height: 24px;
+        padding: 0px 25px;
+        text-align: center;
+    }
+    button {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 1;
+        border-radius: 500px;
+        border: none;
+        padding: 17px 48px;
+        cursor: pointer;
+    }
+}
+
+
+.mobile-container {
+    max-width: 1400px;
+    padding: 70px 15px;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.5px;
+        font-weight: 900;
+        padding-bottom: 0.75em; 
+    }
+    p {
+        display: block;
+        padding: 0px 0px 1em;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+}
+.devices-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+        height: 40px;
+        margin: 10px;
+    }
+}
+.all-platforms-container {
+    background-color: #222326;
+    padding: 70px 15px 50px;
+}
+.all-platforms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 970px;
+    margin: 0 auto;
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        font-weight: 900;
+        padding: 0px 0px 1em;
+    }
+    img {
+        margin-bottom: 20px;
+        padding: 0px 40px;
+        width: 600px;
+        max-width: 100%; 
+        height: 173px;
+    }
+    li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+.all-platforms-list {
+    width: 900px;
+
+    a {
+        color: #1DB954;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+.all-platforms-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0px 0px 1em;
+    flex-wrap: wrap;
+
+    span {
+        text-decoration: none;
+        color:#1DB954;
+    }
+    span a {
+        color: white;
+        text-decoration: none;
+    }
+}
+.left-side-links {
+    display: flex;
+}
+.right-side-links {
+    display: flex;
+}
+.green-bullets li a {
+    color: #1DB954;
+    text-decoration: underline;
+}
+.links img {
+    width: 132px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .nav-container-download nav{
+        justify-content: space-around;
+    }
+    .all-platforms-list {
+        width: 600px;
+        max-width: 100%;
+    }
+    .left-side-links {
+        flex-direction: column;
+    }
+    .right-side-links {
+        flex-direction: column;
+    }
+    .all-platforms-list li {
+        margin: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+    .left-side-links {
+        align-items: center;
+    }
+    .right-side-links {
+        align-items: center;
+    }
+    .all-platforms-list ul {
+        list-style: none;
+    }
+    .all-platforms h1 {
+        font-size: 28px;
+    }
+    .download-leftside h1 {
+        font-size: 32px;
+    }
+    .nav-container-download nav{
+        justify-content: space-between;
+    }
+    .mobile-container h1 {
+        font-size: 28px;
+    }
+    .links img {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    .download-info h1 {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .download-container {
+        height: 75vh;
+    }
+}
+@media (max-width: 500px) {
+    .download-container {
+        height: 60vh;
+    }
+    .download-info h1 {
+        margin-bottom: 15px;
+    }
+}

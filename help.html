@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Support - Spotify</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/cf6ef74e1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav-container-help">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Premium.html">Premium</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="Download.html">Download</a></li>
+                <li class="divide">|</li>
+                <li class="sign-up"><a href="signup.html">Sign Up</a></li>
+                <li class="sign-up"><a href="login.html">Log In</a></li>
+            </ul>
+                <div onclick={hamburgerClick()} class="hamburger">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+        </nav>
+    </div>
+
+<!----BURGER MENU---->
+<div class="overlay">
+        <div class="side-nav">
+            <ul>
+                <li class="menu-top"><a href="Premium.html">Premium</a></li>
+                <li class="menu-top"><a href="help.html">Help</a></li>
+                <li class="menu-top"><a href="Download.html">Download</a></li>
+                <li class="menu-divide"><div class="line"></div></li>
+                <li class="menu-bottom"><a href="signup.html">Sign Up</a></li>
+                <li class="menu-bottom"><a href="login.html">Log In</a></li>
+            </ul>
+            <div class="menu-logo">
+                <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+<!----END BURGER MENU---->
+
+    
+
+    <section class="help-container">
+            <div class="help">
+                <h1>How can we help you?</h1>
+                <div class="icon-container">
+                    <input class="input-search" type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="top-solutions">
+                <p>TOP SOLUTIONS</p>
+                <div class="solutions-box">
+                    <h3>SUBSCRIPTION OPTIONS</h3>
+                    <a href="#">Start or join a Family plan</a>
+                </div>
+                <div class="solutions-box">
+                    <h3>ACCOUNT HELP</h3>
+                    <a href="#">Can't remember login details</a>
+                </div>
+                <div class="solutions-box">
+                    <h3>ACCOUNT HELP</h3>
+                    <a href="#">Can't reset password</a>
+                </div>
+                <div class="solutions-box">
+                    <h3>PRIVACY & SECURITY</h3>
+                    <a href="#">Is this Music email legit?</a>
+                </div>
+            </div>
+        </section>
+    
+        <div class="category-section-container">
+            <div class="category-section">
+                <div class="category-list">
+                    <h3>Account & Payment</h3>
+                    <ul class="category-links">
+                        <a href=""><li>Account Help</li></a>
+                        <a href=""><li>Payment Help</li></a>
+                        <a href=""><li>Subscription Options</li></a>
+                        <a href=""><li>Premium Family</li></a>
+                        <a href=""><li>Premium Duo</li></a>
+                        <a href=""><li>Premium Student</li></a>
+                        <a href=""><li>Privacy & Security</li></a>
+                    </ul>
+                </div>
+                <div class="category-list list-two">
+                    <h3>Using Music</h3>
+                    <ul class="category-links">
+                        <a href=""><li>Video Tutorials</li></a>
+                        <a href=""><li>Getting Started</li></a>
+                        <a href=""><li>Playlists</li></a>
+                        <a href=""><li>Features</li></a>
+                        <a href=""><li>System and Settings</li></a>
+                        <a href=""><li>Troubleshooting</li></a>
+                    </ul>
+                </div>
+                <div class="category-list list-three">
+                    <h3>Listen Everywhere</h3>
+                    <ul class="category-links">
+                        <a href=""><li>Speakers</li></a>
+                        <a href=""><li>TVs</li></a>
+                        <a href=""><li>Cars</li></a>
+                        <a href=""><li>Gaming</li></a>
+                        <a href=""><li>Smart Watches</li></a>
+                        <a href=""><li>Smart Displays</li></a>
+                        <a href=""><li>Voice Assistants</li></a>
+                    </ul>
+                </div>
+            </div>
+    
+    
+    <!-----ACCORDION MENU----->
+            <div class="accordion">
+                    <button class="accordion-btn">Account & Payment</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><a href="#">Account Help</a></li>
+                            <li><a href="#">Payment Help</a></li>
+                            <li><a href="#">Subscription Options</a></li>
+                            <li><a href="#">Premium Family</a></li>
+                            <li><a href="#">Premium Duo</a></li>
+                            <li><a href="#">Premium Student</a></li>
+                            <li><a href="#">Privacy & Security</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <button class="accordion-btn">Using Music</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><a href="#">Video Tutorials</a></li>
+                            <li><a href="#">Getting Started</a></li>
+                            <li><a href="#">Playlists</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">System & Settings</a></li>
+                            <li><a href="#">Troubleshooting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <button class="accordion-btn">Listen Everywhere</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><a href="#">Speakers</a></li>
+                            <li><a href="#">TVs</a></li>
+                            <li><a href="#">Cars</a></li>
+                            <li><a href="#">Gaming</a></li>
+                            <li><a href="#">Smart Watches</a></li>
+                            <li><a href="#">Smart Displays</a></li>
+                            <li><a href="#">Voice Assistants</a></li>
+                        </ul>
+                    </div>
+                </div>
+    <!-----ACCORDION END----->
+        </div>
+    
+    
+        <div class="community">
+            <h1>Visit the Community</h1>
+            <p>Have questions? Find answers from our worldwide Community of expert fans!</p>
+            <button>FIND ANSWERS</button>
+        </div>
+    
+        <div class="footer-container">
+                <footer class="footer">
+                    <div class="links">
+                        <a href=""><img src="./images/logo.png" alt=""></i></a>
+                    </div>
+                    <div class="links-one all-links">
+                        <p>Company</p>
+                        <a href="#">About</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">For the Record</a>
+                    </div>
+                    <div class="links-two all-links">
+                        <p>Communities</p>
+                        <a href="#">For Artists</a>
+                        <a href="#">Developers</a>
+                        <a href="#">Brands</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Vendors</a>
+                    </div>
+                    <div class="links-three all-links">
+                        <p>Useful Links</p>
+                        <a href="#">Help</a>
+                        <a href="#">Web Players</a>
+                        <a href="#">Free Mobile App</a>
+                    </div>
+                    <div class="socials all-links">
+                        <a href="#"><i class="fab fa-instagram fa-2x" ></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    </div>
+                </footer>
+        </div>
+        
+            <div class="bottom-container">
+                <div class="bottom-flag">
+                    <p>USA</p>
+                    <img src="./images/flag.png" alt="">
+                </div>
+                <div class="bottom-footer">
+                    <div class="bottom-links">
+                        <a href="#">Legal</a>
+                        <a href="#">Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Additional CA Privacy Disclosures</a>
+                    </div>
+                    <div class="bottom-info">
+                        <p>@2020 Music Site</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

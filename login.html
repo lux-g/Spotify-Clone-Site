@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/cf6ef74e1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img src="./images/logo-black.png" alt=""></a>
+    </div>
+
+    <div class="login-container">
+        <h1>To continue, log in to Spotify.</h1>
+        <button class="facebook-btn"><i class="fab fa-facebook"></i>CONTINUE WITH FACEBOOK</button>
+        <button class="apple-btn"><i class="fab fa-apple"></i>CONTINUE WITH APPLE</button>
+        <p class="login-or">or</p>
+
+    <div class="login-form-container">
+        <form class="login-form">
+            <div class="form-control">
+                <label >Email address or username</label>
+                <input class="login-username" type="text" placeholder="Email address or username">
+                <p class="login-error"></p>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input class="login-password" type="password" placeholder="Password">
+                <p class="login-error"></p>
+            </div>
+            <a class="forgot-password" href="Password-reset.html">Forgot your password?</a>
+
+            <div class="remember-me-login">
+                <div class="remember">
+                    <input class="checkbox" type="checkbox">
+                    <label>Remember me</label>
+                </div>
+                <div class="login-button">
+                    <input class="login-btn" type="submit" value="Log In">
+                </div>
+            </div>
+        </form>
+
+            <div class="donthave-account">
+                <h1>Don't have an account?</h1>
+                <button>SIGN UP FOR SPOTIFY</button>
+            </div>
+        <div class="login-footer">
+                <p>If you click "Log in with Facebook" and are not a Spotify user, you will be registered and you agree to Spotify's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy.</a></p>
+            </div>
+    </div>
+
+    </div>
+
+  
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>
