@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 206" width="350" height="206">
+	<defs>
+		<image width="100" height="100" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTBweCIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSItMSAtMiA1MCA1MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDxwYXRoIGQ9Ik0yMy42MTE5MDQ4LDQ1LjkyNjExMjIgQzM2LjI4MTU3OTksNDUuOTI2MTEyMiA0Ni41NTIzODEsMzUuNjQ5MzA0MiA0Ni41NTIzODEsMjIuOTcyMjE5IEM0Ni41NTIzODEsMTAuMjk1MTMzOCAzNi4yODE1Nzk5LDAuMDE4MzI1NzMwMSAyMy42MTE5MDQ4LDAuMDE4MzI1NzMwMSBDMTAuOTQyMjI5NiwwLjAxODMyNTczMDEgMC42NzE0Mjg1NzEsMTAuMjk1MTMzOCAwLjY3MTQyODU3MSwyMi45NzIyMTkgQzAuNjcxNDI4NTcxLDM1LjY0OTMwNDIgMTAuOTQyMjI5Niw0NS45MjYxMTIyIDIzLjYxMTkwNDgsNDUuOTI2MTEyMiBaIiBpZD0iT3ZhbC0zNyIgc3Ryb2tlPSIjMTlFNjhDIiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiPjwvcGF0aD4KPC9zdmc+Cg=="/>
+		<image width="34" height="28" id="img2" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTdweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIxNSAxNiAxNyAxNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDxwYXRoIGQ9Ik0xNy40NTcxNDI5LDIzLjc1NDc1NjkgQzE3LjQ1NzE0MjksMjMuNzU0NzU2OSAxOC4wNDkwNzUyLDI0LjQyMTE4NjQgMTguNzgyMTI5NywyNS4yNDY0OTg5IEwyMC41ODU2MjY1LDI3LjI3Njk3MzQgQzIwLjk1MDA2OTksMjcuNjg3MjgzNSAyMS41MzQ4NDgyLDI3LjY4OTM3NzQgMjEuOTAzNTUzOCwyNy4yNjgxODM3IEwyOS45NjM1NzIyLDE4LjA2MDc1OTYiIGlkPSJQYXRoLTU1IiBzdHJva2U9IiMxOUU2OEMiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48L3BhdGg+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #3a3a3a } 
+		.shp1 { fill: #616467 } 
+		.shp2 { fill: #2f2e2e } 
+		.shp3 { fill: #212121 } 
+	</style>
+	<g id="Install-Page">
+		<g id="b2-desktop-1">
+			<g id="laptop-animation-large">
+				<g id="laptop-large">
+					<path id="outer" class="shp0" d="M32.75 0L315.06 0C316.95 0 318.48 1.53 318.48 3.42L318.48 187.44C318.48 189.33 316.95 190.86 315.06 190.86L32.75 190.86C30.86 190.86 29.33 189.33 29.33 187.44L29.33 3.42C29.33 1.53 30.86 0 32.75 0Z" />
+					<path id="screen" class="shp1" d="M48.14 175.43L300 175.43L300 17.61L48.14 17.61L48.14 175.43Z" />
+					<g id="base">
+						<path id="Layer" fill-rule="evenodd" class="shp2" d="M0.07 191.56C0.03 191.09 0.38 190.71 0.85 190.71L349.05 190.71C349.52 190.71 349.83 191.09 349.73 191.54C349.73 191.54 347.52 205.33 333.03 205.33L15.03 205.33C0.36 205.33 0.07 191.56 0.07 191.56Z" />
+						<path id="indent" class="shp3" d="M155.37 191.04L194.87 191.04L194.87 193.7L155.37 193.7L155.37 191.04Z" />
+					</g>
+					<path id="rounded-rectangle" class="shp3" d="M170.73 8.97L179.2 8.97C179.62 8.97 179.96 9.31 179.96 9.73L179.96 9.73C179.96 10.15 179.62 10.48 179.2 10.48L170.73 10.48C170.31 10.48 169.97 10.15 169.97 9.73L169.97 9.73C169.97 9.31 170.31 8.97 170.73 8.97Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+	<use id="green-circle" href="#img1" transform="matrix(0.9,0,0,0.92,130,51)"/>
+	<use id="green-success-check" href="#img2" transform="matrix(0.941,0,0,0.929,160,84)"/>
+</svg>

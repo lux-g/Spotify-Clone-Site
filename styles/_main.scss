@@ -22,7 +22,7 @@
 }
 .hero h1 {
     margin-top: 10px;
-    
+    font-family: 'Circular';
     font-size: 156px;
     font-weight: 700;
     margin-bottom: 40px;
@@ -44,6 +44,7 @@
     margin-bottom: 40px;
     font-weight: 400;
     color: #1ED760;
+    font-family: 'CircularLight';
 }
 .btn-green {
     color: #2940a8;
@@ -57,6 +58,7 @@
     display: inline-block;
     text-decoration: none;
     transition: background-color 300ms;
+    font-family: 'CircularLight';
 }
 .btn-green:hover {
     background-color: white;

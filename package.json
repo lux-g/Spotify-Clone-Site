@@ -1,0 +1,23 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel index.html Download.html help.html login.html Password-reset.html Premium.html signup.html",
+    "build": "parcel build index.html Download.html help.html login.html Password-reset.html Premium.html signup.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lux-g/Spotify-Clone-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lux-g/Spotify-Clone-Site/issues"
+  },
+  "homepage": "https://github.com/lux-g/Spotify-Clone-Site#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
